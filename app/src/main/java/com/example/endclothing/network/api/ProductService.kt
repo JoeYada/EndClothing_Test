@@ -1,10 +1,11 @@
 package com.example.endclothing.network.api
 
-import com.example.endclothing.PRODUCT_URL
 import com.example.endclothing.data.ProductResponse
-import kotlinx.coroutines.flow.Flow
+import com.example.endclothing.utils.PRODUCT_TEST_URL
+import com.example.endclothing.utils.PRODUCT_URL
 import retrofit2.http.GET
 
 interface ProductService {
-    @GET(PRODUCT_URL) fun getProducts(): Flow<ProductResponse>
+    @GET(PRODUCT_TEST_URL) suspend fun getTestProducts(): ProductResponse
+    @GET(PRODUCT_URL) suspend fun getProducts(): ProductResponse
 }

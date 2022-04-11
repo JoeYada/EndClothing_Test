@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">EndClothing</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="products">Products</string>
+    <string name="home">Home</string>
+    <string name="welcome_to_the_clothing_app_please_select_products_to_view_our_range">Welcome to the Clothing App Please Select products to view our range</string>
 </resources>

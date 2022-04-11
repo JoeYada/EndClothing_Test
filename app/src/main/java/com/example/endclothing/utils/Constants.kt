@@ -1,4 +1,4 @@
-package com.example.endclothing
+package com.example.endclothing.utils
 
 const val BASE_URL ="https://www.endclothing.com/"
 const val PRODUCT_URL = "media/catalog/example.json"
